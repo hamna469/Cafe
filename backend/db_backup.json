@@ -1,0 +1,185 @@
+{
+    "menu_items": [
+        {
+            "name": "Cappuccino",
+            "category": "coffee",
+            "price": "3.50",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+            "description": "Rich espresso with creamy milk foam."
+        },
+        {
+            "name": "Latte",
+            "category": "coffee",
+            "price": "78.00",
+            "image": "https://images.unsplash.com/photo-1587080413959-06b859fb107d?w=500&auto=format&fit=crop&q=60",
+            "description": "Smooth coffee with steamed milk"
+        },
+        {
+            "name": "Espresso",
+            "category": "coffee",
+            "price": "65.00",
+            "image": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=500&auto=format&fit=crop&q=60",
+            "description": "Strong black coffee shot."
+        },
+        {
+            "name": "Mocha",
+            "category": "coffee",
+            "price": "91.00",
+            "image": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6",
+            "description": "Chocolate flavored coffee delight"
+        },
+        {
+            "name": "Cold Coffee",
+            "category": "coffee",
+            "price": "65.00",
+            "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735",
+            "description": "Chilled creamy coffee with ice."
+        },
+        {
+            "name": "Chocolate Cake",
+            "category": "cake",
+            "price": "100.00",
+            "image": "https://plus.unsplash.com/premium_photo-1715015439764-1e8d37d5c6c9?w=500&auto=format&fit=crop&q=60",
+            "description": "Soft layered chocolate cake."
+        },
+        {
+            "name": "Iced Latte",
+            "category": "coffee",
+            "price": "87.00",
+            "image": "https://images.unsplash.com/photo-1592663527359-cf6642f54cff?w=500&auto=format&fit=crop&q=60",
+            "description": "Cold milk coffee with espresso"
+        },
+        {
+            "name": "Cheesecake",
+            "category": "cake",
+            "price": "79.00",
+            "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad",
+            "description": "Creamy baked cheesecake slice"
+        },
+        {
+            "name": "Donuts",
+            "category": "dessert",
+            "price": "84.00",
+            "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+            "description": "Sweet glazed donuts variety."
+        },
+        {
+            "name": "Croissant",
+            "category": "dessert",
+            "price": "45.00",
+            "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a",
+            "description": "Buttery flaky French pastry."
+        },
+        {
+            "name": "Cupcakes",
+            "category": "cake",
+            "price": "64.00",
+            "image": "https://images.unsplash.com/photo-1607478900766-efe13248b125",
+            "description": "Mini sweet cupcakes with frosting"
+        },
+        {
+            "name": "Brownie",
+            "category": "dessert",
+            "price": "39.00",
+            "image": "https://media.istockphoto.com/id/2156395989/photo/fresh-baked-brownies.webp?a=1&b=1&s=612x612&w=0&k=20&c=MKbg4lqBif3w2ExOb2qvaeYyQaG6IiEjikoK9ae77cM=",
+            "description": "Rich chocolate fudgy brownie"
+        },
+        {
+            "name": "Cheese Burger",
+            "category": "pastry",
+            "price": "69.00",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+            "description": "Juicy beef burger with melted cheese."
+        },
+        {
+            "name": "Chicken Sandwich",
+            "category": "pastry",
+            "price": "88.00",
+            "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af",
+            "description": "Grilled chicken with fresh veggies"
+        },
+        {
+            "name": "French Fries",
+            "category": "pastry",
+            "price": "86.00",
+            "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f",
+            "description": "Crispy golden potato fries."
+        },
+        {
+            "name": "Pizza Slice",
+            "category": "pastry",
+            "price": "100.00",
+            "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emElMjBzbGljZXxlbnwwfHwwfHx8MA%3D%3D",
+            "description": "Classic cheese and tomato pizza"
+        },
+        {
+            "name": "Cake",
+            "category": "cake",
+            "price": "800.00",
+            "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FrZXxlbnwwfHwwfHx8MA%3D%3D",
+            "description": "Good"
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Ayesha",
+            "rating": 5,
+            "comment": "Best coffee shop ever. The cappuccino was amazing and fresh"
+        },
+        {
+            "name": "Eman",
+            "rating": 5,
+            "comment": "Beautiful environment and delicious desserts. Loved the brownies."
+        },
+        {
+            "name": "Tehreem",
+            "rating": 5,
+            "comment": "Very cozy place with excellent customer service and tasty coffee."
+        },
+        {
+            "name": "Areeba",
+            "rating": 5,
+            "comment": "The cheesecake and latte were perfect. Highly recommended caf\u00e9"
+        },
+        {
+            "name": "Haleema",
+            "rating": 5,
+            "comment": "Amazing ambience and quick service. I really enjoyed the cold coffee."
+        },
+        {
+            "name": "Amna",
+            "rating": 5,
+            "comment": "One of the best caf\u00e9 experiences. Everything was fresh and delicious."
+        }
+    ],
+    "orders": [
+        {
+            "name": "Amna",
+            "items": "Cheesecake",
+            "payment_method": "card",
+            "address": "Lahore",
+            "status": "pending"
+        },
+        {
+            "name": "Hamna",
+            "items": "Pizza Slice",
+            "payment_method": "cash",
+            "address": "Central Park",
+            "status": "pending"
+        },
+        {
+            "name": "Haleema",
+            "items": "Brownie",
+            "payment_method": "card",
+            "address": "UOL",
+            "status": "pending"
+        },
+        {
+            "name": "Eman",
+            "items": "Latte",
+            "payment_method": "cash",
+            "address": "UOL",
+            "status": "pending"
+        }
+    ]
+}

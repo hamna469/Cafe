@@ -1,3 +1,4 @@
+from django.db import transaction
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .models import MenuItem, Order, Review
@@ -22,8 +23,12 @@ def create_order(request):
     serializer = OrderSerializer(data=request.data)
 
     if serializer.is_valid():
-        serializer.save()
-        return Response(serializer.data)
+        try:
+            with transaction.atomic():
+                serializer.save()
+            return Response(serializer.data, status=201)
+        except Exception as e:
+            return Response({"error": str(e)}, status=500)
 
     return Response(serializer.errors, status=400)
 
@@ -35,7 +40,7 @@ def create_order(request):
 def reviews(request):
 
     if request.method == 'GET':
-        data = Review.objects.all()
+        data = Review.objects.all().order_by('-created_at')
         serializer = ReviewSerializer(data, many=True)
         return Response(serializer.data)
 
@@ -44,7 +49,7 @@ def reviews(request):
 
         if serializer.is_valid():
             serializer.save()
-            return Response(serializer.data)
+            return Response(serializer.data, status=201)
 
         return Response(serializer.errors, status=400)
 
@@ -54,6 +59,6 @@ def reviews(request):
 # =========================
 @api_view(['GET'])
 def get_orders(request):
-    orders = Order.objects.all()
+    orders = Order.objects.all().order_by('-created_at')
     serializer = OrderSerializer(orders, many=True)
-    return Response(serializer.data)
+    return Response(serializer.data)

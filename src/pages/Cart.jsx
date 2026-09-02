@@ -6,7 +6,7 @@ function Cart({
   // SAFE TOTAL CALCULATION
   const total = (cart || []).reduce((sum, item) => {
     const price = Number(
-      String(item?.price || "").replace("$", "")
+      String(item?.price || "").replace("$", "").replace("Rs.", "").trim()
     ) || 0;
 
     return sum + price;
@@ -45,8 +45,8 @@ function Cart({
                 {/* INFO */}
                 <div className="cart-info">
                   <h3>{item?.name}</h3>
-                  <p>{item?.desc}</p>
-                  <span>{item?.price}</span>
+                  <p>{item?.desc || item?.description}</p>
+                  <span>Rs. {item?.price}</span>
                 </div>
 
                 {/* DELETE */}
@@ -75,12 +75,10 @@ function Cart({
           {/* TOTAL */}
           <div className="cart-total">
             <h2>
-              Total: ${total.toFixed(2)}
+              Total: Rs. {total.toFixed(2)}
             </h2>
 
-            <button className="checkout-btn">
-              Checkout
-            </button>
+           
           </div>
         </>
       )}

@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "id": "2",
+      "name": "Espresso",
+      "price": 300,
+      "type": "Coffee"
+    },
+    {
+      "id": "3",
+      "name": "Espresso",
+      "price": 250,
+      "type": "Coffee"
+    },
+    {
+      "id": "4",
+      "name": "Espresso",
+      "price": 250,
+      "type": "Coffee"
+    },
+    {
+      "id": "5",
+      "name": "Espresso",
+      "price": 250,
+      "type": "Coffee"
+    },
+    {
+      "id": "6",
+      "name": "Espresso",
+      "price": 250,
+      "type": "Coffee"
+    },
+    {
+      "id": "7",
+      "name": "Espresso",
+      "price": 400,
+      "type": "Coffee"
+    },
+    {
+      "id": "8",
+      "name": "Cake",
+      "price": 900,
+      "type": "Dessert"
+    }
+  ]
+}

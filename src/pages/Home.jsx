@@ -12,11 +12,11 @@ function Home() {
 
         <div className="hero-text">
 
-          
+          <p className="hero-tag">Brew Haven Cafe</p>
 
           <h2>
-            Fresh Coffee <br />
-            & Pastries Everyday
+            Taste the <br />
+            Perfect Brew
           </h2>
 
           <p className="hero-description">
@@ -41,7 +41,7 @@ function Home() {
             <Link to="/cart">
 
               <button className="order-btn">
-                Order Online
+                Order Now
               </button>
 
             </Link>

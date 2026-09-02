@@ -74,6 +74,20 @@ function Contact() {
 
       </div>
 
+      {/* Google Map */}
+      <div className="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d871887.8993453102!2d74.2555648!3d31.391744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1787112244258!5m2!1sen!2s"
+          width="100%"
+          height="400"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="strict-origin-when-cross-origin"
+          title="Brew Haven Location"
+        />
+      </div>
+
     </div>
   );
 }
