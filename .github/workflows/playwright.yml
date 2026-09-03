@@ -41,7 +41,7 @@ jobs:
       run: npm run dev -- --host &
 
     - name: Wait for servers to be ready
-      run: npx wait-on http://localhost:8000 http://localhost:5173 --timeout 90000
+      run: npx wait-on tcp:8000 http://localhost:5173 --timeout 90000
 
     - name: Show Django log if failed
       if: failure()
