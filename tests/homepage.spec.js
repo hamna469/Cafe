@@ -4,7 +4,7 @@ test.describe('Brew Haven - Homepage & Menu', () => {
 
   test('homepage loads with correct title', async ({ page }) => {
     await page.goto('/');
-    await expect(page).toHaveTitle(/brew-haven/i);
+    await expect(page).toHaveTitle(/this-title-does-not-exist-xyz/i);
   });
 
   test('menu page shows menu items', async ({ page }) => {
